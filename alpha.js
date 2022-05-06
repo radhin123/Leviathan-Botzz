@@ -2798,7 +2798,8 @@ anu = `──────────────────
 NOTE : _DILARANG JUAL SC BOT_
 ──────────────────
 _BASE : DCODE DENPA_
-_SC ORI : Leviathan corporation_
+_SC ORI : Leviathan Botzz_
+_Repo : https://github.com/radhin123/Leviathan-Botzz_
 _KANG RECODE : ${NamaOwner}_
 ⍟ ────────────────── ⍟`
 buttons = [
