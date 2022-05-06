@@ -1,37 +1,42 @@
 <p align="center">
   <a href="/">
-    <img src="https://api-xcoders.xyz/images/farhan.png" width="120">
+    <img src="./gambar/Leviathan_2-removebg-preview.png" width="120">
   </a>
 </p>
 <p align="center">
   <a href="/">
-    <img title="XCoders BOT" src="https://img.shields.io/badge/-XCODERS BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge">
+    <img title="L.Botzz" src="https://img.shields.io/badge/-Leviathan Botzz-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge">
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Fxc7">
-    <img title="author" src="https://img.shields.io/badge/author-Farhannn-red?style=for-the-badge&logo=github">
+  <a href="https://github.com/radhin123">
+    <img title="author" src="https://img.shields.io/badge/author-Radhin Al haady-red?style=for-the-badge&logo=github">
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/Fxc7?tab=followers">
-    <img title="followers" src="https://img.shields.io/github/followers/Fxc7">
+  <a href="https://github.com/radhin123?tab=followers">
+    <img title="followers" src="https://img.shields.io/github/followers/radhin123">
   </a>
-  <a href="https://github.com/Fxc7/weabot-example/stargazers">
-    <img title="stars" src="https://img.shields.io/github/stars/Fxc7/weabot-example">
+  <a href="https://github.com/radhin123/weabot-example/stargazers">
+    <img title="stars" src="https://img.shields.io/github/stars/radhin123/Leviathan-Botzz">
   </a>
-  <a href="https://github.com/Fxc7/weabot-example/network/members">
-    <img title="forks" src="https://img.shields.io/github/forks/Fxc7/weabot-example">
+  <a href="https://github.com/radhin123/Leviathan-Botzz/network/members">
+    <img title="forks" src="https://img.shields.io/github/forks/radhin123/Leviathan-Botzz">
   </a>
-  <a href="https://github.com/Fxc7/weabot-example/watchers">
+  <a href="https://github.com/radhin123/Leviathan-Botzz/watchers">
     <img title="watchers" src="https://img.shields.io/github/watchers/Fxc7/weabot-example">
   </a>
+  <img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+<a href="https://github.com/radhin123/Leviathan-Botzz/"><img title="Size" src="https://img.shields.io/github/repo-size/radhin123/Leviathan-Botzz?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fradhin123%Leviathan-Botzz&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/radhin123/Leviathan-Botzz/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+</p>
 </p>
 
 ## Clone this project
 
 ```cmd
-> git clone https://github.com/Fxc7/weabot-example
+> git clone https://github.com/radhin123/Leviathan-Botzz
 ```
 
 ## Install the dependencies
@@ -47,8 +52,30 @@ or:
 > yarn install
 > yarn
 ```
+<p align='center'>
+    </p>
 
-## Usage
+-------
+
+## `ADD BUILDPACK`
+
+```
+> heroku/nodejs
+> https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+> https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+```
+
+## `CHANGE SESSION`
+
+[`Click Here`](https://github.com/radhin123/Leviathan-Botzz/blob/master/session.json#L1)
+
+## `SETTING`
+
+- Owner number [Here](https://github.com/Leviathan-Botzz/Alphab0t12/blob/master/settings.json#L1)
+- Owner name [Here](https://github.com/radhin223/Leviathan-Botzz/blob/master/settings.json#L1)
+- Botname [Here](https://github.com/radhin123/Leviathan-Botzz/blob/master/settings.json#L1)
+- 
+## 'Usage'
 
 ```cmd
 > npm start
@@ -83,3 +110,11 @@ Or :
     <img src="https://img.shields.io/badge/-MANURIOS%20SEPUH-000?style=flat-square&logo=github"
   </a>
 </p>
+
+## `THANKS TO`
+
+- Allah SWT.
+- My parents
+- All Friends
+- All Contributors
+- All Creator Bot
