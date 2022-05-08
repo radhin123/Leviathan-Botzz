@@ -90,9 +90,9 @@ Or :
 ## Social Media
 
 <p align="center">
-<a href="https://www.instagram.com/only_fxc7" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
-<a href="farhanxcode7@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"></a>
-<a href="https://api.whatsapp.com/send?phone=628311800241&text=hmm" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a>
+<a href="https://www.instagram.com/radhin_al_haady" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+<a href="radhinallhaady@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"></a>
+<a href="https://api.whatsapp.com/send?phone=6282311619167&text=hmm" target="_blank"><img src="https://img.shields.io/badge/Whatsapp-%808080.svg?&style=flat-square&logo=Whatsapp&logoColor=white" alt="WhatsApp"></a>
 </p>
 
 <p align="center">
@@ -106,8 +106,8 @@ Or :
   </a>
 </p>
 <p align="center">
-  <a href="https://github.com/ManuriosX">
-    <img src="https://img.shields.io/badge/-MANURIOS%20SEPUH-000?style=flat-square&logo=github"
+  <a href="https://github.com/Ferdiz-afk">
+    <img src="https://img.shields.io/badge/-ferdi%20SEPUH-000?style=flat-square&logo=github"
   </a>
 </p>
 
