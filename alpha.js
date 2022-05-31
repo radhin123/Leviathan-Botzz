@@ -3326,6 +3326,83 @@ case 'anime':
 		            )
 		            });
 		            break
+/**case by Ferdi**/
+
+case 'backgroundanime': 
+
+ case 'animestyle': 
+   case prefix + 'as':{
+    if(!q) return reply(`*Example :*\n${command} text1|text2|background\n\n*Penggunaan:*\n${command} Riska|Wibu|70`)
+    ardanya = args.join(" ").split("|")
+    arda1 = ardanya[0]
+    arda2 = ardanya[1]
+    back = ardanya[2]
+    if(Number(back) > 75 ) return reply(`_Background hanya sampai 75_`)
+			await replylink(ind.wait(), "en-ephoto360create-anime-style-cover", `~> Request By ${pushName}`, msg)
+			try{
+   bikin = await fetchJson(`https://ferdiz-afk.my.id/api/en-ephoto360/create-anime-style-cover?text=${arda1}&text2=${arda2}&filter=bg${back}`)
+   console.log(bikin)
+		image	= await getBuffer(bikin.results.image)
+		await sleep(5000)
+			alpha.sendMessage(from, {
+					image: image,
+					caption: `done kak`,
+					mentions: sender
+				}, {
+					quoted: mek
+				})
+				
+} catch (e) {
+console.log(e)
+return reply(e)
+}}
+break
+case 'estetik': {
+	    /**if (!quoted) throw reply(`Kirim/Reply Image Dengan Caption ${prefix + command}`)
+	    if (!/image/.test(mime)) throw reply(`Kirim/Reply Image Dengan Caption ${prefix + command}`)
+	    if (/webp/.test(mime)) throw reply(`Kirim/Reply Image Dengan Caption ${prefix + command}`)**/
+	    	    if (!quoted) throw reply(`Kirim/Reply Image Dengan Caption estetik`)
+
+	    if (!/image/.test(mime)) throw reply(`Kirim/Reply Image Dengan Caption estetik`)
+
+	    if (/webp/.test(mime)) throw reply(`Kirim/Reply Image Dengan Caption estetik`)
+	    let remobg = require('remove.bg')
+	    let apirnobg = ['q61faXzzR5zNU6cvcrwtUkRU','S258diZhcuFJooAtHTaPEn4T','5LjfCVAp4vVNYiTjq9mXJWHF','aT7ibfUsGSwFyjaPZ9eoJc61','BY63t7Vx2tS68YZFY6AJ4HHF','5Gdq1sSWSeyZzPMHqz7ENfi8','86h6d6u4AXrst4BVMD9dzdGZ','xp8pSDavAgfE5XScqXo9UKHF','dWbCoCb3TacCP93imNEcPxcL']
+	    let apinobg = apirnobg[Math.floor(Math.random() * apirnobg.length)]
+	 
+	    hmm = await './src/remobg-'+getRandom('')
+	    localFile = await alpha.downloadAndSaveMediaMessage(quoted, hmm)
+	    outputFile = './src/hremo-'+getRandom('.png')
+           			await replylink(ind.wait(), "estetik", `~> Request By ${pushName}`, msg)
+	    try{
+      	    remobg.removeBackgroundFromImageFile({
+      	      path: localFile,
+      	      apiKey: apinobg,
+      	      size: "regular",
+      	      type: "auto",
+      	      scale: "100%",
+      	      outputFile
+      	    }).then(async result => {
+      	      console.log(outputFile)
+      	     
+      		let { UploadFileUgu, webp2mp4File, TelegraPh, imgbb} = require('../lib/uploader')
+      		let tes = await fs.readFileSync(outputFile)
+      	   let anu = await imgbb(outputFile)
+      	   console.log(anu)
+      	 let hsil= await getBuffer(`https://oni-chan.my.id/api/Fmake/estetik?picturl=${anu.url}`)
+      	            await sleep(7000)
+        await fdz.sendMessage(m.chat, { image: hsil, caption: "success"}, { quoted: m})
+           
+      	 //   await fs.unlinkSync(localFile)
+      	//    await fs.unlinkSync(outputFile)
+      	    })
+        } catch(err) {
+        console.log(err);
+        reply(err);
+    }
+	    }
+	    break
+/**break case si Ferdi**/
 case 'baka':
 case 'tickle':
 case 'slap':
